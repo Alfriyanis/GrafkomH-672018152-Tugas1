@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(8,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(23,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(55,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(82,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(134,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(148,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(167,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Generating code
+  0 of 9 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  asdostgs1.vcxproj -> C:\Users\Alfriyanis\source\repos\asdostgs1\x64\Release\asdostgs1.exe

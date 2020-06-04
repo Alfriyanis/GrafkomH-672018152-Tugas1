@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(173,26): error C2664: 'void glutDisplayFunc(void (__cdecl *)(void))': cannot convert argument 1 from 'void (__cdecl *)(unsigned char,int,int)' to 'void (__cdecl *)(void)'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(173,18): message : None of the functions with this name in scope match the target type
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\include\GL\freeglut_std.h(495,26): message : see declaration of 'glutDisplayFunc'
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(177,19): error C2065: 'myKeyboard': undeclared identifier

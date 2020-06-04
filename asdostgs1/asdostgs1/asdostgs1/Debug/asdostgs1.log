@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\Alfriyanis\source\repos\asdostgs1\asdostgs1\Source.cpp(9,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Source.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowPosition@8 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowSize@8 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutInitDisplayMode@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutMainLoop@0 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutSwapBuffers@0 referenced in function "void __cdecl segitiga(void)" (?segitiga@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutDisplayFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp____glutInitWithExit@12 referenced in function _glutInit_ATEXIT_HACK@8
+Source.obj : error LNK2019: unresolved external symbol __imp____glutCreateWindowWithExit@8 referenced in function _glutCreateWindow_ATEXIT_HACK@4
+C:\Users\Alfriyanis\source\repos\asdostgs1\library\freeglutd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Alfriyanis\source\repos\asdostgs1\Debug\asdostgs1.exe : fatal error LNK1120: 8 unresolved externals
