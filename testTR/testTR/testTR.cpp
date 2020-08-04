@@ -127,7 +127,7 @@ void display(void) {
 	glPushMatrix();
 	glTranslatef(.0f, -.9f, .0f);
 	glColor3ub(10, 10, 10);
-	for (int i = 0; i < (int)JumlahFaces / 3; i++)
+	for (int i = 0; i < (int)Tampilan / 3; i++)
 	{
 		glBegin(GL_LINE_LOOP);
 		glVertex3f(_pos[_urut[i].u1].x, _pos[_urut[i].u1].y, _pos[_urut[i].u1].z);
