@@ -1,6 +1,6 @@
 #pragma once
 
-int JumlahVertex = 512, JumlahFaces = 718;
+int JumlahVertex = 512, Tampilan = 718;
 float nx, ny, nz, bx, by, bz, tx, ty, tz;
 int nomor;
 
@@ -19,7 +19,7 @@ struct urutan {
 
 pos* _pos = new pos[JumlahVertex];
 uv* _uv = new uv[JumlahVertex];
-urutan* _urut = new urutan[JumlahFaces];
+urutan* _urut = new urutan[Tampilan];
 
 
 
@@ -38,8 +38,8 @@ int Load(const char* model) {
 		std::cout << _pos[i].x << " : " << _pos[i].y << " : " << _pos[i].z << " : " << _uv[i].u << " : " << _uv[i].v << std::endl;
 	}
 
-	fscanf_s(f, "\nNrIndices:%d", &JumlahFaces);
-	for (int i = 0; i < (int)JumlahFaces / 3; i++) {
+	fscanf_s(f, "\nNrIndices:%d", &Tampilan);
+	for (int i = 0; i < (int)Tampilan / 3; i++) {
 		fscanf_s(f, "   %d.    %d,    %d,    %d", &nomor, &_urut[i].u1, &_urut[i].u2, &_urut[i].u3);
 		std::cout << nomor << " : " << _urut[i].u1 << " : " << _urut[i].u2 << " : " << _urut[i].u3 << std::endl;
 	}
